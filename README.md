@@ -56,8 +56,8 @@ https://translate-api-65059410484.asia-southeast2.run.app
 **Response Body:**  
 ```json
 {
-  "original_text": "good morning",
-  "translated_text": "selamat pagi"
+"input_text": "good morning",
+"translated_text": "selamat pagi."
 }
 ```
 
@@ -69,7 +69,7 @@ https://translate-api-65059410484.asia-southeast2.run.app
 ```bash
 curl "https://translate-api-65059410484.asia-southeast2.run.app/translate?text=good%20morning"
 ```
-**response:**
+**Response:**
 ```json
 {
 "input_text": "good morning",
