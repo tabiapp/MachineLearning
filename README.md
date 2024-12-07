@@ -69,19 +69,10 @@ https://translate-api-65059410484.asia-southeast2.run.app
 ```bash
 curl "https://translate-api-65059410484.asia-southeast2.run.app/translate?text=good%20morning"
 ```
-
-#### **Using Python (Requests)**  
-```python
-import requests
-
-url = "https://translate-api-65059410484.asia-southeast2.run.app/translate"
-params = {"text": "good morning"}
-response = requests.get(url, params=params)
-
-if response.status_code == 200:
-    data = response.json()
-    print("Original Text:", data["original_text"])
-    print("Translated Text:", data["translated_text"])
-else:
-    print("Error:", response.status_code)
+**response:**
+```json
+{
+"input_text": "good morning",
+"translated_text": "selamat pagi."
+}
 ```
