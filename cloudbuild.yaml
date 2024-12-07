@@ -24,6 +24,6 @@ steps:
       - "--service-account=$SERVICE_ACCOUNT_EMAIL"
 
 images:
-  - "asia-southeast2-docker.pkg.dev/$PROJECT_ID/tabiapp/translate-api:$SHORT_SHA"
+  - "asia-southeast2-docker.pkg.dev/$PROJECT_ID/apimodel/translate-api:$SHORT_SHA"
 
 logsBucket: "gs://tabi-translate/log_cloudbuild_tabiapp_api_translate"
